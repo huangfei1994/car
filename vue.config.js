@@ -14,5 +14,6 @@ module.exports = defineConfig({
       .set('Utils', resolve('./src/utils'))
       .set('Mixin', resolve('./src/mixin'))
       .set('Store', resolve('./src/store'))
-  }
+  },
+  publicPath: './'
 })
